@@ -208,7 +208,7 @@ export default {
   --elm-bg-color: #fff;
 
   background: var(--elm-bg-color);
-  padding-top: 10px;
+  padding-top: var(--elm-padding);
 
   &__form {
     padding: 0 var(--elm-padding) 10px;
