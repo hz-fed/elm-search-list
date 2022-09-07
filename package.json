@@ -9,6 +9,7 @@
     "vue",
     "component"
   ],
+  "homepage": "https://github.com/hz-fed/elm-search-list",
   "files": [
     "dist/**/*"
   ],
