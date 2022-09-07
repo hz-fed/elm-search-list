@@ -1,0 +1,33 @@
+{
+  "name": "@hz-fed/elm-search-list",
+  "version": "0.0.1",
+  "type": "module",
+  "main": "dist/index.js",
+  "description": "基于 element-ui 的增强列表组件",
+  "keywords": [
+    "element-ui",
+    "vue",
+    "component"
+  ],
+  "files": [
+    "dist/**/*"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "publish": "pnpm publish --access public"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue2": "^1.1.2",
+    "element-ui": "^2.15.9",
+    "sass": "^1.54.8",
+    "vite": "^3.1.0",
+    "vite-plugin-vue2": "^2.0.2",
+    "vue": "^2.5.17"
+  },
+  "peerDependencies": {
+    "element-ui": "^2.15.9",
+    "vue": "^2.5.17"
+  }
+}
