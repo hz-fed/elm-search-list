@@ -145,7 +145,7 @@ export default {
         }
       },
       tableData: [
-        { name: '1啊士大夫看见', cartNumber: '23983921lllllllll', year: '2019', person: '老王' },
+        { name: '1啊士大夫看见', cartNumber: '23983921lllllllll', year: '2019', person: '' },
         { name: '2啊士大夫看见', cartNumber: '23983921lllllllll', year: '2019', person: '老王' },
         { name: '3啊士大夫看见', cartNumber: '23983921lllllllll', year: '2019', person: '老王' },
         { name: '4啊士大夫看见', cartNumber: '23983921lllllllll', year: '2019', person: '老王' },

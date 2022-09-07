@@ -49,7 +49,7 @@
           <template slot-scope="scope">
             <slot v-if="$scopedSlots['column-' + col[$columnPropKey]]" :name="'column-' + col[$columnPropKey]" :column="scope.column" :row="scope.row" :index="scope.$index"></slot>
 
-            <template v-else>{{ scope.row[col[$columnPropKey]] }}</template>
+            <template v-else>{{ scope.row[col[$columnPropKey]] || '-' }}</template>
           </template>
         </el-table-column>
 
