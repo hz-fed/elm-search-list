@@ -30,7 +30,7 @@
     <div class="elm-search-list__table">
       <slot name="table-top"></slot>
 
-      <el-table v-bind="$t.attrs" v-on="$t.listeners" :data="tableData" v-loading="loading">
+      <el-table v-bind="$t.attrs" v-on="$t.listeners" v-loading="loading" ref="table" :data="tableData">
         <el-table-column v-if="$t.showSelectionColumn" v-bind="$t.selectionColumnAttrs" type="selection" :align="getAttr($t.selectionColumnAttrs, 'align', 'center')"></el-table-column>
 
         <el-table-column
@@ -65,6 +65,7 @@
       v-if="!$p.hide"
       v-bind="$p.attrs"
       v-on="$p.listeners"
+      ref="pagination"
       class="elm-search-list__pagination"
       :current-page.sync="$form[$pCurrentKey]"
       :page-size.sync="$form[$pSizeKey]"
